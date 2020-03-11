@@ -1,0 +1,295 @@
+@CHARSET "UTF-8";
+
+@CHARSET "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	color: #000;
+	cursor: pointer;
+}
+
+h2 {
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+h1 {
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #fff;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+.shop_main{
+	width: 100%;
+	height: 100%;
+}
+
+.dht_link{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+.dht_link a{
+	line-height: 50px;
+	font-size: 13px;
+}
+
+.dht_link a:hover{
+	text-decoration: underline;
+}
+
+.secondary{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.section{
+	width: 245px;
+	height: 100%;
+	float: left;
+}
+
+.section_1{
+	width: 215px;
+	height: 46px;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	font-size: 19px;
+	font-weight: 400;
+	border-bottom: 1px solid #ccc;
+}
+
+.section_2{
+	margin: auto;
+	margin-top: 10px;
+	display: block;
+	width: 215px;
+	height: 30px;
+	color: #000;
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+.section_3{
+	margin: auto;
+	display: block;
+	width: 215px;
+	height: 30px;
+	color: #000;
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+.secondary_2{
+	width: 1272px;
+	float: left;
+	border-left: 1px solid #ccc;
+}
+
+.js{
+	width: 1272px;
+	height: 46px;
+	border-bottom: 1px solid #ccc;	
+}
+
+.px{
+	float: right;
+	margin-right: 10px;
+	line-height: 46px;
+	margin-top: 12px;
+}
+
+.section_right{
+	width: 1249.2px;
+	height: 100%;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 35px 0 0;
+}
+
+.section_right .ul_first{
+	width:1249.2px;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.section_right .li_first{
+	margin: 0px;
+	box-sizing: border-box;
+	width: 415px;
+	height: 520.24px;
+	float: left;
+	margin-top: 20px;
+}
+
+.section_right .h2_1{
+	position: absolute;
+	width: 415px;
+	height: 29.2px;	
+	padding: 0 0 10px;
+	margin: -20px 0 20px;
+	font-size: .875rem;
+	font-family: montserrat light,sans-serif,"microsoft yahei";
+	font-weight: 400;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	/*margin-top: 10px;*/
+}
+
+.section_right .h2_1 span{
+	width: 62px;
+	display: block;
+	height: 29.2px;
+	border-bottom: 1px solid #333;
+	margin: auto;
+}
+
+.section_right .body_1{
+	position: relative;
+	width: 413pxpx;
+	height: 520px;
+	float: left;
+}
+
+
+.section_right .body_1_1 {
+	position: absolute;
+	width: 50%;
+	padding: 10px 0 0 10px;	
+	/*box-sizing: border-box;*/
+	font-size: 14px;
+	color: #000;
+	/*text-transform: lowercase;*/
+/*	z-index: 1;*/
+	height: 40px;
+}
+
+.section_right .body_1x{
+	position: relative;
+	text-align: center;
+	max-width: 300px;
+	margin-top: 40px;
+	margin: 0 auto;
+	display: block;
+	/*background: lightblue;*/
+	width: 300px;
+	height: 315px;
+}
+
+.body_1x .rm2{
+	width: 300px;
+	height: 250px;
+	padding-top: 53px;
+}
+
+.body_1x li{
+	width: 300px;
+	height: 250px;
+}
+.body_1x li img{
+	width: 250px;
+	height: 250px;
+}
+
+.body_2x {
+	width: 352px;
+	height: 55px;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+	margin: 0px auto;
+	line-height: 55px;
+}
+
+.body_1 h3{
+	width: 352px;
+	height: 40px;
+	color: #666;
+	text-align: center;
+	font-size: 12px;
+	
+    font-weight: bold;
+    margin: 0px auto;
+    
+}
+
+.body_1 .start{
+	padding-bottom: 6px;
+	text-align: center;
+	color: #333;
+	font-size: 14px;
+	
+}
+
+.body_1 .price{
+	width: 413px;
+	height: 60px;
+	text-align: center;
+	margin: 25px 0px;
+	position: relative; 
+}
+
+.price .price_1{
+	width: 100px;
+	/*height: 60px;*/
+	float: left;  
+    background: #464646; 
+    line-height: 60px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.price .price_2{
+	width: 100px;
+	/*height: 35px;*/
+	float: left;  
+    background: #000; 
+    line-height: 60px;
+    text-align: center;
+}
+
+.price .price_1 a{
+	display: block;
+	height: 35px;
+	width: 100px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center; 
+	line-height: 35px;
+	font-family:  montserrat regular,sans-serif,microsoft yahei;;
+}
+
+.price .price_2 a{
+	display: block;
+	height: 35px;
+	width: 100px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center; 
+	line-height: 35px;
+	font-family: montserrat regular,sans-serif,microsoft yahei;
+}

@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+
+.modal{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.2);
+}
+.modal-content{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 920px;
+   /* max-width: 1000px;*/
+    height: 530px;
+   /* max-height: 550px;*/
+    margin: 100px auto;
+    /*border-radius:10px;*/
+    background-color:#fff;
+    -webkit-animation: zoom 0.6s;
+    animation: zoom 0.6s;
+    resize: both;
+    overflow: auto;
+}
+@-webkit-keyframes zoom{
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+@keyframes zoom{
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+.modal-header{
+    box-sizing:border-box;
+    /*border-bottom:1px solid #ccc;*/
+    height: 100px;
+    display: flex;
+    line-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.close{
+    color: #b7b7b7;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: all 0.3s;
+}
+.close:hover, .close:focus{
+    color: #95b4ed;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-footer button{
+    width: 90px;
+    height: 37px;
+    padding: 5px;
+    /*box-sizing: border-box;*/
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+}
+
+.modal-footer button:hover, .modal-footer button:focus{
+    /*background-color: #95b4ed;*/
+    cursor: pointer;
+}
+
+.address_detail_page{
+	width: 770px;
+	height: 450px;
+	margin: auto;
+    
+}
+
+/*.address_detail_page button{
+	background: #000;
+	color: #fff;
+	width: 90px;
+	height: 37px;
+	border: 1px solid #ccc;
+}*/
+
+.address_left{
+	width: 354px;
+	height: 300px;
+	float: left;
+}
+
+.address_left_name{
+	width: 354px;
+	height: 80px;
+	margin: 0 0 10px;
+}
+
+.address_city{
+	width: 354px;
+	height: 80px;
+	margin: 0 0 10px;
+}
+
+.address_right{
+	width: 354px;
+	height: 300px;
+	float: right;
+}
+
+.address_phone{
+	width: 354px;
+	height: 80px;
+	margin: 0 0 10px;
+}
+
+.address_xxdz{
+	width: 354px;
+	height: 80px;
+	margin: 0 0 10px;
+}
+
+.address_yb{
+	width: 354px;
+	height: 80px;
+	margin: 0 0 10px;
+}

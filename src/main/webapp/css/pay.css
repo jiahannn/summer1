@@ -1,0 +1,426 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	font-family:  montserrat regular,sans-serif,microsoft yahei;
+}
+
+h2 {
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+h1 {
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+	width: 1519px;
+	height: 100%;
+}
+
+.shopb_head {
+	height: 90px;
+	width: 1519px;
+	margin: 0px auto;
+	text-align: center;
+	border-bottom: 3px solid #000;
+}
+
+.content_car {
+	width: 1239px;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.check_lc {
+	width: 1239px;
+	height: 100px;
+}
+
+.jx_shop {
+	width: 1519px;
+	height: 50px;
+}
+
+.jx_shop a {
+	font-size: 13px;
+	padding-left: 10px;
+	text-decoration: underline;
+	line-height: 60px;
+}
+
+.jx_shop a:hover {
+	cursor: pointer;
+	color: orange;
+}
+
+.my_car {
+	width: 1000px;
+	height: 100%;
+	margin: 20px auto;
+	
+}
+
+.order_price{
+	margin: 1.5rem 0px;
+	height: 100px;
+}
+
+.order_price h2{
+	width: 300px;
+	height: 80px;
+	display: block;
+	line-height: 50px;
+	float: left;
+	font-size: 20px;
+    font-weight: 400;
+    font-family: montserrat ultra light, sans-serif, microsoft yahei;
+	
+}
+
+
+.goods_dec h1 {
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 24px;
+}
+
+.goods_dec h2 {
+	font-family: montserrat ultra light, sans-serif, microsoft yahei;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #666;
+	margin: 10px 0 0;
+	display: block;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+
+.order_price span{
+	width: 200px;
+	height: 80px;
+	display: block;
+	float: left;
+	margin-left:180px;
+	line-height: 80px;
+	text-align: center;
+	
+}
+
+.span_1{
+	font-family: montserrat regular, sans-serif, microsoft yahei;
+	color: #000;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	display: block;
+	height: 50px;
+}
+
+#pay{
+	background: #a2221f;
+	width: 120px;
+	height: 40px;
+	color: #fff;
+	border: 1px solid #a2221f;
+	float: right;
+	margin-top: 30px;
+}
+
+.check_step1{
+	width: 25%;
+    margin-right: 2%;
+    font-size: .875rem;
+    display: inline-block;
+    padding-bottom: 1.25rem;
+    border-bottom: 4px solid #d3d3d3;
+    font-size: .875rem;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.label1{
+	color: #afafaf;
+    display: inline-block;
+    width: 100%;
+    font-size: .875rem;
+    margin-top: 5px;
+}
+
+.steps1{
+	color: #afafaf;
+    display: inline-block;
+    width: 100%;
+    font-size: .875rem;
+}
+
+.check_step2{
+	width: 25%;
+    margin-right: 2%;
+    font-size: .875rem;
+    display: inline-block;
+    padding-bottom: 1.25rem;
+    border-bottom: 4px solid #000;
+    font-size: .875rem;
+    display: inline-block;
+}
+
+.label2{
+	color: #000;
+    display: inline-block;
+    width: 100%;
+    font-size: .875rem;
+    margin-top: 5px;
+}
+
+.steps2{
+	color: #000;
+    display: inline-block;
+    width: 100%;
+    font-size: .875rem;
+}
+
+.check_step3{
+	width: 25%;
+    margin-right: 2%;
+    font-size: .875rem;
+    display: inline-block;
+    padding-bottom: 1.25rem;
+    border-bottom: 4px solid #d3d3d3;
+    font-size: .875rem;
+    display: inline-block;
+}
+
+.label3{
+	color: #afafaf;
+	margin-top: 5px;
+    display: inline-block;
+    width: 100%;
+    font-size: .875rem;
+}
+
+.steps3{
+	color: #afafaf;
+    display: inline-block;
+    width: 100%;
+    font-size: .875rem;
+}
+
+.address_info{
+	width: 1000px;
+	margin: 8px auto;
+	padding: 1.5rem 0 0;
+	border-top: 1px solid #ccc;
+}
+
+.address_info h3{
+	font-size: 1.125rem;
+    margin-bottom: 2.5rem;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.address_section{
+	width: 100%;
+	height: 100%;
+}
+
+.address_choose{
+	
+}
+
+.address_choose_lastname{
+	width: 16.6897%;
+	font-size: .875rem;
+    margin-bottom: 1.25rem;
+    display: inline-block;
+    color: #000;
+}
+
+.address_choose_address{
+	width: 40.2414%;
+	font-size: .875rem;
+    margin-bottom: 1.25rem;
+    display: inline-block;
+    color: #000;
+}
+
+.address_choose_zip{
+	width: 15.4138%;
+	font-size: .875rem;
+    margin-bottom: 1.25rem;
+    display: inline-block;
+    color: #000;
+}
+
+.address_choose_phone{
+	width: 17.2414%;
+	font-size: .875rem;
+    margin-bottom: 1.25rem;
+    display: inline-block;
+    color: #000;
+}
+
+
+.showcar{
+	margin: 10px 10px;
+	margin-top: 60px;
+	padding: 1.1rem 0;
+    width: 264px;
+    /*height: 145px;*/
+    display: inline-block;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.carimg{
+	float: left;
+}
+
+.showcar_img{
+	width: 82px;
+	height: 82px;
+}
+
+.carp{
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	font-family: 
+}
+
+.goodsname{
+	margin-top:10px;
+	display: block;
+	width: 100%;
+	font-size: 14px;
+}
+
+.goodscolor{
+	display: block;
+    width: 100%;
+    margin-top: 13px;
+    font-size: .75rem;
+    color: #666;
+}
+
+.goodsnum{
+    margin-top: 13px;
+    display: block;
+    float: left;
+    font-size: .75rem;
+    color: #666;
+}
+
+.goodsprice{
+	width: 70px;
+    margin-left: 50px;
+    text-align: right;
+    margin-top: 13px;
+    display: block;	
+    font-size: .75rem;
+    color: #666;
+}
+
+#showModel{
+	width: 70px;
+	height: 30px;
+	float: right;
+	background: #000;
+	color: #fff;
+	border: 1px solid #ccc;
+}
+
+.pay_method{
+	width: 100%;
+	height: 225px;
+}
+
+.pay_method_check{
+	padding: 2.5rem 0 1.5rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+legend{
+	display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+.legend_message{
+    font-size: 1.125rem;
+    margin-bottom: 1.875rem;
+}
+
+.payment{
+	margin: 1.875rem 0 1.25rem 1.75rem;
+    font-size: .875rem;
+}
+
+.online_pay{
+	font-size: .875rem;
+}
+
+.pay_method_img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pay_zfb{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.pay_zfb input{
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+.pay_wechat{
+	display: inline-block;
+	margin-right: 30px;
+}
+.pay_wechat input{
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+.offline_pay{
+    font-size: .875rem;
+    margin-top: 1.25rem;
+    line-height: 14px;
+}
+.offline_pay input{
+	margin-right: 8px;
+	cursor: pointer;
+}
+

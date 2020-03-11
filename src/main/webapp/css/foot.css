@@ -1,0 +1,95 @@
+html{
+	font-family: montserrat regular, sans-serif, "microsoft yahei";
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.foot{
+	width: 100%;
+	
+}
+
+.foot .foot_1{
+	width:100% ;
+	height: 593px;
+	background-image: url(../img/hp_ITA.jpg);
+	
+}
+
+.foot_1 .foot_dec{
+	width:1519px ;
+	height: 242px;
+	padding-top: 150px;
+}
+
+.foot_dec p{
+	text-align: center;
+}
+
+.foot_dec .p1{
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 30px;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px; 
+	font-family: montserrat light,sans-serif,microsoft yahei;
+    font-weight: 400;
+    color: #fff;
+}
+
+.foot_dec .p2{
+	display: block;
+	height: 60px;
+	font-family: "didot 06 a","didot 06 b",sans-serif,microsoft yahei;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 0 0 10px;
+    color: #fff;
+    
+}
+
+.foot_dec .p3{
+	font-size: 22px;
+    font-weight: 400;
+    display: block;
+    color: #fff;
+}
+
+.foot_dec a{
+	display: block;
+	width: 100px;
+	height: 35px;
+	font-size: 13px;
+	background: #151515;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 30px;
+	margin: auto;
+}
+
+.foot_2{
+	width: 1519.2px;
+	height: 163px;
+	position: relative;
+}
+
+.foot_2 .foot_a1{
+	width: 379px;
+	height: 124px;
+	
+}

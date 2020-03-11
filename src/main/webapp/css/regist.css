@@ -1,0 +1,274 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	background: #fff;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.dht_link {
+	width: 100%;
+	height: 50px;
+	padding-left: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.dht_link a {
+	line-height: 50px;
+	font-size: 13px;
+}
+
+.dht_link a:hover {
+	text-decoration: underline;
+}
+
+.main_regist{
+	width: 1000px;
+	height: 100%;
+	margin: 0px auto;
+	background: #fff;
+}
+
+.m_regist{
+	margin: auto;
+	width: 723px;
+	height: 740px;
+}
+
+.main_regist .regist_1{
+	width: 723px;
+	height: 65px;
+	padding-top: 30px;
+	/*padding-left: 20px;*/
+	background: #eee;
+}
+
+.regist_1 span{
+	font-family: montserrat regular,sans-serif,microsoft yahei;
+    font-size: 28px;
+    color: #000;
+    font-weight: 400;
+}
+
+.regist_1_sex{
+	width: 723px;
+	height: 70px;
+	
+}
+
+.regist_1_sex span{
+	/*padding-left: 30px;*/
+	font-family: montserrat light,sans-serif,microsoft yahei;
+    font-size: 14px;
+    color: #666;
+    line-height: 110px;
+}
+
+.regist_1_input{
+	width: 723px;
+	height: 116px;
+	position: relative;
+}
+
+.regist_1_phone{
+	padding: 40px 10px 15px 0px;
+	float: left;
+}
+
+.regist_1_name{
+	padding: 40px 10px 15px 0px;
+	float: right;
+}
+.regist_1_input input{
+	height: 37px;
+    width: 320px;
+    color: #666;
+    font-size: 14px; 
+    border: 1px solid #bfbfbf;
+    font-family: montserrat regular,sans-serif,microsoft yahei;
+    box-sizing: border-box;   
+}
+
+.regist_pwd{
+	width: 723px;
+	height: 116px;
+	position: relative;
+}
+
+.regist_1_pwd{
+	width: 320px;
+	float: left;
+	padding: 20px 10px 15px 0px;
+}
+
+.regist_1_pwd1{
+	float: right;
+	width: 320px;
+	padding: 20px 10px 15px 0px;
+}
+
+.regist_pwd input{
+	height: 37px;
+    width: 320px;
+    color: #666;
+    font-size: 14px; 
+    border: 1px solid #bfbfbf;
+    font-family: montserrat regular,sans-serif,microsoft yahei;
+    box-sizing: border-box;   
+}
+
+.regist_1_mail{
+	padding: 10px 10px 15px 0px;
+	float: right;
+}
+
+.regist_1_mail input{
+	height: 37px;
+    width: 320px;
+    color: #666;
+    font-size: 14px; 
+    border: 1px solid #bfbfbf;
+    font-family: montserrat regular,sans-serif,microsoft yahei;
+    box-sizing: border-box;  
+}
+
+.r_pwd {
+	float: left;
+	background: #ccc;
+	width: 70px;
+	padding-left: 20px;
+	height: 6px;
+	margin-top: 5px;
+	margin-left: 5px;
+	_margin-top: 0px;
+	_height: 2px;
+	font-size: 0px;
+}
+
+.r_qiangdu{
+	padding-left: 15px;
+}
+
+.r_pwd1 {
+	float: left;
+	background: #D9534F;
+	width: 70px;
+	height: 6px;
+	margin-top: 5px;
+	margin-left: 5px;
+	_margin-top: 0px;
+	_height: 2px;
+	font-size: 0px;
+	padding-left: 20px;
+}
+
+.r_pwd2 {
+	float: left;
+	background: #F0AD4E;
+	width: 70px;
+	height: 6px;
+	margin-top: 5px;
+	margin-left: 5px;
+	_margin-top: 0px;
+	_height: 2px;
+	font-size: 0px;
+	padding-left: 20px;
+}
+
+.r_pwd3 {
+	float: left;
+	background: #5CB85C;
+	width: 70px;
+	height: 6px;
+	margin-top: 5px;
+	margin-left: 5px;
+	_margin-top: 0px;
+	_height: 2px;
+	font-size: 0px;
+	padding-left: 20px;
+}
+
+.r_qiangdu {
+	float: left;
+	width: 70px;
+	margin-left: 5px;
+	text-align: center;
+	color: #b0adad;
+	font-size: 12px;
+}
+
+.zhuce{
+	width: 500px;
+	height: 130px;
+	font-size: 14px;
+}
+
+.zhuce input{
+	width: 100px;
+	height: 37px;
+	background: #151515;
+	color: #fff;
+	border: 1px solid #ccc;
+}
+
+.yzm_yanzheng{
+	float: left;
+	font-size: 13px;
+	width: 330px;
+	height: 100px;
+	
+}
+
+
+.yzm_yanzheng input{
+	height: 37px;
+	margin-top: 11px;
+	display: block;
+	float: left;
+	width: 160px;
+}
+
+#regist{
+	width: 114px;
+	height: 37px;
+	margin-right: 150px;
+	float: right;
+	margin-top: 20px
+	
+}
+
+#agreement{
+	width: 18px;
+	height: 18px;
+	border: 1px solid #ccc;
+}
+
+#ag{
+	color: red;
+	font-size: 12px;
+}
+
+#hg{
+	color: red;
+	font-size: 12px;
+}
+
+#hg1{
+	color: red;
+	font-size: 12px;
+}
+
+.pwd_eql{
+	color: red;
+	font-size: 12px;
+}
+
+#yx{
+	color: red;
+	font-size: 12px;
+}

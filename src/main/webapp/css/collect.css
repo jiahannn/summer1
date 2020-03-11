@@ -1,0 +1,384 @@
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+
+h2{
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1{
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body{
+	-webkit-font-smoothing: antialiased;
+}
+
+.content{
+	width: 1519.2px;
+	height: 1200px;
+}
+
+.dht_link{
+	width: 1519.2px;
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+.dht_link a{
+	line-height: 50px;
+	font-size: 13px;
+}
+
+.dht_link a:hover{
+	text-decoration: underline;
+}
+
+.collect_main{
+	width: 1279px;
+	height: 1084px;
+	margin: 0px auto;
+}
+
+.person_head_img{
+	width: 1280px;
+	height: 230px;
+	background-image: url(../img/account_header_image.jpg);
+}
+
+.person_head_img .head_img_name{
+	font-family: montserrat light,sans-serif,microsoft yahei;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+ 	line-height: 270px;
+    margin-left: 600px;
+    /*text-align: center;*/ 
+}
+
+.head_inner{
+	width: 1280px;
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+}
+
+.head_inner  ul{
+	width: 848px;
+	height: 19px;
+	margin-left: 350px;
+	line-height: 60px;
+}
+
+.head_inner ul li{
+	list-style: none;
+	position: relative;
+	display: block;
+	float: left;
+	width: 162px;
+	height: 19px;
+}
+
+.head_inner ul li a{
+	font-weight: 300;
+    display: block;
+    height: 1px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.head_inner ul li a:hover{
+	color: #151515;
+	font-weight: 700;
+	
+}
+
+.collect_primary{
+	width: 723px;
+	height: 754px;
+	margin: 30px auto;
+}
+
+.primary_title{
+	margin-top: 45px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    padding-left: 2.77%;
+    color: #000;
+    font: 28px montserrat light,sans-serif,microsoft yahei;
+    text-transform: uppercase;
+}
+
+.primary_head_edit{
+	font-size: 9px;
+    padding-left: 2.77%;
+    line-height: 58px;
+    padding-top: 0;
+	background: #eee;
+}
+
+.primary_head_edit h1{
+	font-family: montserrat regular;
+	color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    display: inline-block;     
+}
+
+.collect_div{
+	width: 723px;
+	height: 600px;
+}
+
+.collect_list{
+    margin-bottom: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.item_img{
+	width: 188px;
+	height: 236px;
+	text-align: center;
+}
+
+.item_jg{
+	width: 198px;
+	height: 236px;
+}
+
+.item_jg p{
+	font: 28px montserrat light,sans-serif,microsoft yahei;
+	font-size: 15px;
+	margin: 0 0 10px 10px;
+	
+}
+
+.item_jg a{
+	font: 28px montserrat light,sans-serif,microsoft yahei;
+	font-size: 13px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.item_jg a:hover{
+	text-decoration: underline;
+}
+
+.item_pri{
+	width: 318px;
+	height: 236px;
+}
+
+#jia{
+	width: 25px; 
+	height: 35px;
+	background: #000;
+	color: #fff;
+	border: 1px solid #ccc;
+	/*margin-left: 50px;
+	margin-right: 10px;*/
+}
+#jian{
+	width: 25px; 
+	height: 35px;
+	background: #000;
+	color: #fff;
+	border: 1px solid #ccc;
+	margin-left: 20px;
+}
+
+.collect_num{
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	margin: auto;
+}
+
+.collect_buy{
+	width: 300px;
+	height: 50px;
+	position: relative;
+	margin: auto;
+}
+
+.collect_buy input{
+	width: 100px;
+	height: 35px;
+	border: 1px solid #ccc;
+	background: #000;
+	color: #fff;
+}
+
+.collect_buy p{
+	display: block;
+	width: 100px;
+	height: 33px;
+	border: 1px solid #ccc;
+	background: #373737;
+	color: #fff;
+	font-size: 14px;
+	float: left;
+	margin-left: 55px;
+}
+
+.modal{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.2);
+}
+.modal-content{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 900px;
+   /* max-width: 1000px;*/
+    height: 497px;
+   /* max-height: 550px;*/
+    margin: 100px auto;
+    /*border-radius:10px;*/
+    background-color:#fff;
+    -webkit-animation: zoom 0.6s;
+    animation: zoom 0.6s;
+    resize: both;
+    overflow: auto;
+}
+@-webkit-keyframes zoom{
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+@keyframes zoom{
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+.modal-header{
+    box-sizing:border-box;
+    /*border-bottom:1px solid #ccc;*/
+    height: 60px;
+    display: flex;
+    line-height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.close{
+    color: #b7b7b7;
+    font-size: 30px;
+    /*font-weight: bold;*/
+    margin-left: 93%;
+    transition: all 0.3s;
+    display: block;
+  	  
+}
+.close:hover, .close:focus{
+    color: #95b4ed;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.collect_left_img{
+	width: 380px;
+	height: 370px;
+	float: left;
+	line-height: 370px;
+}
+
+.collect_right_data{
+	width: 450px;
+	height: 467px;
+	background: lightblue;
+	float: right;
+	margin-right: 20px;
+}
+
+.goods_dec{
+	width: 440px;
+	height: 242px;	
+}
+
+.goods_dec h1{
+	font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+    
+}
+
+.goods_dec h2{
+	font-family: montserrat ultra light,sans-serif,microsoft yahei;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0 0;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.g_det{
+	font-size: 14px;
+    color: #666;
+    line-height: 18px;
+}
+
+.choose_g{
+	width: 440px;
+	height: 200px;
+}
+
+.select_goods{
+	width: 400px;
+	height: 90px;
+}
+
+.select_goods select{
+	width: 140px;
+	height: 43px;
+	border: 1px solid #ccc;
+	margin-left: 20px;
+}
+.add_car{
+	width: 440px;
+	height: 60px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.add_car p{
+	display: block;
+	width: 160px;
+	height: 43px;
+	border: 1px solid #ccc;
+	background: #373737;
+	color: #fff;
+	font-size: 14px;
+	float: left;
+}
+
+.add_car input{
+	width: 160px;
+	height: 45px;
+	border: 1px solid #ccc;
+	background: #151515;
+	color: #fff;
+	font-size: 14px;
+}

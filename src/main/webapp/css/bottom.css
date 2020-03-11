@@ -1,0 +1,77 @@
+html{
+	font-family: montserrat regular, sans-serif, "microsoft yahei";
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.bottom{
+	width: 1519.2px;
+	height: 826px;
+}
+
+#b_pic2 .one{
+	width: 987px;
+	height: 121px;
+	padding-top: 300px;
+}
+
+#b_pic2 .one_a{
+	width: 987px;
+	height: 66px;
+	line-height: 66px;
+	text-align: center;
+	
+}
+
+#b_pic2 .one_a a{
+	font-size: 23px;
+	font-family: "微软雅黑";
+	color: #000;
+}
+
+#b_pic2 .two_a{
+	width: 987px;
+	height: 35px;
+	text-align: center;
+}
+
+#b_pic2 .two_a a{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #000;
+}
+
+#b_pic2 .thr_a{
+	width: 987px;
+	height: 35px;
+	text-align: center;
+}
+
+#b_pic2 .thr_a a{
+	display: block;
+	width: 85px;
+	line-height: 35px;
+	height: 35px;
+	background: #151515;
+	color: #fff;
+	margin: 0 auto;
+	font-size: 14px;
+	font-weight: 30;
+	font-family: montserrat regular,sans-serif,microsoft yahei;
+}
+
+.bottom_vedio{
+	float: right;
+}
+
+

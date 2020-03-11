@@ -1,0 +1,379 @@
+@CHARSET "UTF-8";
+
+
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+
+h2{
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1{
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body{
+	-webkit-font-smoothing: antialiased;
+}
+
+.content{
+	width: 1519.2px;
+	height: 1200px;
+}
+
+.dht_link{
+	width: 1519.2px;
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+.dht_link a{
+	line-height: 50px;
+	font-size: 13px;
+}
+
+.dht_link a:hover{
+	text-decoration: underline;
+}
+
+.person_main{
+	width: 1279px;
+	height: 1084px;
+	margin: 0px auto;
+}
+
+.person_head_img{
+	width: 1280px;
+	height: 230px;
+	background-image: url(../img/account_header_image.jpg);
+}
+
+.person_head_img .head_img_name{
+	font-family: montserrat light,sans-serif,microsoft yahei;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+ 	line-height: 270px;
+    margin-left: 600px;
+    text-align: center; 
+}
+
+.head_inner{
+	width: 1280px;
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+}
+
+.head_inner  ul{
+	width: 848px;
+	height: 19px;
+	margin-left: 350px;
+	line-height: 60px;
+}
+
+.head_inner ul li{
+	list-style: none;
+	position: relative;
+	display: block;
+	float: left;
+	width: 162px;
+	height: 19px;
+}
+
+.head_inner ul li a{
+	font-weight: 300;
+    display: block;
+    height: 1px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.head_inner ul li a:hover{
+	color: #151515;
+	font-weight: 700;
+	
+}
+
+.person_primary{
+	width: 723px;
+	height: 754px;
+	margin: 30px auto;
+}
+
+.primary_title{
+	margin-top: 45px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    padding-left: 2.77%;
+    color: #000;
+    font: 28px montserrat light,sans-serif,microsoft yahei;
+    text-transform: uppercase;
+}
+
+.primary_head_edit{
+	font-size: 10px;
+    padding-left: 2.77%;
+    line-height: 58px;
+    padding-top: 0;
+	background: #eee;
+}
+
+.primary_head_edit h1{
+	font-family: montserrat regular,sans-serif,microsoft yahei;
+	color: #000;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    display: inline-block;     
+}
+
+
+.per_xx{
+	width: 100%;
+	height: 180px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.per_xx p{
+	font-family: montserrat regular,sans-serif,microsoft yahei;
+	font-size: 14px;
+	margin-top: 10px;
+	text-align: left;
+}
+
+.per_update{
+	width: 100%;
+	height: 60px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+
+.per_update button{
+	background: #000;
+	color: #fff;
+	border: 1px solid #ccc;
+	margin-right: 15px;
+}
+
+
+.modal{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.2);
+}
+.modal-content{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 920px;
+    max-width: 1000px;
+    height: 530px;
+    max-height: 550px;
+    margin: 100px auto;
+    /*border-radius:10px;*/
+    background-color:#fff;
+    -webkit-animation: zoom 0.6s;
+    animation: zoom 0.6s;
+    resize: both;
+    overflow: auto;
+}
+@-webkit-keyframes zoom{
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+@keyframes zoom{
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+.modal-header{
+    box-sizing:border-box;
+    /*border-bottom:1px solid #ccc;*/
+    height: 70px;
+    display: flex;
+    line-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+.close{
+    color: #b7b7b7;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: all 0.3s;
+}
+.close:hover, .close:focus{
+    color: #95b4ed;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-body{
+	height: 330px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing:border-box;
+}
+
+.modal-footer{
+    box-sizing:border-box;
+    border-top:1px solid #ccc;
+    display: flex;
+    padding: 15px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.modal-footer button{
+    width: 90px;
+    height: 37px;
+    padding: 5px;
+    /*box-sizing: border-box;*/
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+}
+
+.modal-footer button:hover, .modal-footer button:focus{
+    /*background-color: #95b4ed;*/
+    cursor: pointer;
+}
+
+.person_detail_page{
+	width: 770px;
+	height: 480px;
+	margin: auto;
+    
+}
+
+
+.person_detail{
+	width: 723px;
+	height: 70px;
+}
+
+.person_sex{
+	width: 723px;
+	height: 50px;
+}
+
+.person_sex span{
+	font-family: montserrat light,sans-serif,microsoft yahei;
+    font-size: 14px;
+    color: #666;
+    line-height: 80px;
+}
+
+.person_name{
+	padding: 30px 10px 15px 0px;
+	float: left;
+}
+
+.person_birth{
+	padding: 30px 10px 15px 0px;
+	float: right;
+}
+
+.person_detail input{
+	height: 37px;
+    width: 320px;
+    color: #666;
+    font-size: 14px; 
+    border: 1px solid #bfbfbf;
+    font-family: montserrat regular,sans-serif,microsoft yahei;
+    box-sizing: border-box;   
+}
+
+.person_phone{
+	padding: 30px 10px 15px 0px;
+	float: left;
+}
+
+.person_mail{
+	padding: 30px 10px 15px 0px;
+	float: right;
+}
+
+.person_yzm{
+	width: 320px;
+	padding: 30px 10px 15px 0px;
+	float: left;
+}
+
+.person_yzm span{
+	display: block;
+	width: 130px;
+	height: 37px;
+	float: right;
+}
+
+.person_dxyzm{
+	padding: 30px 10px 15px 0px;
+	float: right;
+}
+
+.person_yzm input{
+	height: 37px;
+    width: 160px;
+    color: #666;
+    font-size: 14px; 
+    border: 1px solid #bfbfbf;
+    font-family: montserrat regular,sans-serif,microsoft yahei;
+}
+
+.person_dxyzm input{
+	height: 37px;
+	width: 160px;
+	color: #666;
+    font-size: 14px; 
+    border: 1px solid #bfbfbf;
+    font-family: montserrat regular,sans-serif,microsoft yahei;
+    box-sizing: border-box; 
+}
+
+.person_save{
+	width: 150px;
+	height: 40px;
+	margin-left: 20px;
+}
+
+.person_save input{
+	width: 150px;
+	height: 37px;
+	background: #000;
+	color: #fff;
+	border: 1px solid #ccc;
+	margin-top: 40px;
+}
+
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.glyphicon-shopping-cart:before {
+	content: "\e116"
+}
